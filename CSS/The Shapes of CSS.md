@@ -1,6 +1,5 @@
 # The Shapes of CSS
 
-<a href="#" title="Back to top" style="outline:none;text-decoration: none; font-size: 36px; position: fixed;right: 0;bottom: 10px;">&UpArrowBar;</a>
 
 <body style="color: #24ABF2"></body>
 
@@ -2274,3 +2273,4 @@
   margin-left: -2.5em;
 }
 </style>
+<a href="#" title="Back to top" style="outline:none;text-decoration: none; font-size: 36px; position: fixed;right: 0;bottom: 10px;">&UpArrowBar;</a>
