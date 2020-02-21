@@ -92,16 +92,16 @@ Space & \::SetNumLockState % !GetKeyState("NumLock", "T")
 
 ; left-hand
 ; ---------------------------------------------------------
-CapsLock & q::MsgBox,  ; defined in VScode
-CapsLock & w::MsgBox,  ; defined in VScode
-CapsLock & e::MsgBox,  ; defined in VScode
-CapsLock & r::MsgBox,  ; defined in VScode
-CapsLock & t::MsgBox,  ; defined in VScode
+CapsLock & q::MsgBox, undefined ; defined in VScode
+CapsLock & w::MsgBox, undefined ; defined in VScode
+CapsLock & e::MsgBox, undefined ; defined in VScode
+CapsLock & r::MsgBox, undefined ; defined in VScode
+CapsLock & t::MsgBox, undefined ; defined in VScode
 
-CapsLock & a::MsgBox,  ; defined in VScode
-CapsLock & s::MsgBox,  ; defined in VScode
-CapsLock & d::MsgBox,  ; defined in VScode
-CapsLock & f::MsgBox,  ; defined in VScode
+CapsLock & a::MsgBox, undefined ; defined in VScode
+CapsLock & s::MsgBox, undefined ; defined in VScode
+CapsLock & d::MsgBox, undefined ; defined in VScode
+CapsLock & f::MsgBox, undefined ; defined in VScode
 CapsLock & g::MsgBox, undefined ; defined in VScode
 
     CapsLock & z::MsgBox, undefined
@@ -115,37 +115,37 @@ CapsLock & b::WinGetClass, Clipboard, A
 
 ; right-hand
 ; ---------------------------------------------------------
-CapsLock & y::MsgBox,  ; defined in VScode
-CapsLock & u::MsgBox,  ; defined in VScode
-    CapsLock & i::MsgBox, 
-    CapsLock & o::MsgBox, 
-    CapsLock & p::MsgBox, 
-    CapsLock & [::MsgBox, 
+CapsLock & y::MsgBox, undefined ; defined in VScode
+CapsLock & u::MsgBox, undefined ; defined in VScode
+    CapsLock & i::MsgBox, undefined
+    CapsLock & o::MsgBox, undefined
+    CapsLock & p::MsgBox, undefined
+    CapsLock & [::MsgBox, undefined
     CapsLock & ]::MsgBox, undefined
 
 CapsLock & h::SendInput, ^{left} ; defined in VScode
-    CapsLock & j::MsgBox, undefined
+    CapsLock & j::Send, ^x{<}^v{>}
     CapsLock & k::MsgBox, undefined
 CapsLock & l::SendInput, ^{right} ; defined in VScode
 CapsLock & `;::SendInput, {End}{`;}
 CapsLock & '::SendInput, {\}
 
-    CapsLock & n::MsgBox, undefined ; defined in VScode
+    CapsLock & n::MsgBox, heel ; defined in VScode
 CapsLock & m::md_key := !md_key
     CapsLock & ,::MsgBox, undefined
     CapsLock & .::MsgBox, undefined
 CapsLock & 1::epw()
 
     CapsLock & 2::return
-    CapsLock & 3::MsgBox, 
-    CapsLock & 4::MsgBox, 
-    CapsLock & 5::MsgBox, 
-    CapsLock & 6::MsgBox, 
-    CapsLock & 7::MsgBox, 
-    CapsLock & 8::MsgBox, 
-    CapsLock & 9::MsgBox, 
-    CapsLock & 0::MsgBox, 
-    CapsLock & -::MsgBox, 
+    CapsLock & 3::MsgBox, undefined
+    CapsLock & 4::MsgBox, undefined
+    CapsLock & 5::MsgBox, undefined
+    CapsLock & 6::MsgBox, undefined
+    CapsLock & 7::MsgBox, undefined
+    CapsLock & 8::MsgBox, undefined
+    CapsLock & 9::MsgBox, undefined
+    CapsLock & 0::MsgBox, undefined
+    CapsLock & -::MsgBox, undefined
     CapsLock & +::MsgBox, undefined
 
 ; hotstring
